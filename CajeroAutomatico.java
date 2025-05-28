@@ -28,7 +28,7 @@ public class CajeroAutomatico {
 	public void ImprimirTicket(Cliente cliente) {
 		System.out.println("----------------------------------------------------");
 		System.out.println("Cliente:"+ cliente.nombre + " ID:" + cliente.id + " Direccion:" + cliente.direccion);
-		System.out.println("Banco: " + banco);
+		System.out.println("Banco: " + banco + ", Tipo de transaccion:" + tipo);
 		System.out.println("Monto: " + monto);
 	}
 	
